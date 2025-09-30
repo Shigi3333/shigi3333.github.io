@@ -1,11 +1,24 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: > 
+  Hi! I'm Derek
+email: derekasuzumoto@gmail.com
+url: https://shigi3333.github.io
+description: >- 
+  Hi! My name is Derek Suzumoto. I am a young software developer in the making!
+  I have a Bachelors of Science in Computer Science from Colorado School of
+  Mines. I am Solution-oriented, and always looking to develop new industry
+  skills. I think of myself as adept at creative problem solving, and draw on a
+  large knowledge bank of experience in other fields I've worked in to find 
+  novel solutions. This website is here to give you a good idea of who I am,
+  and show off some of my work! Thanks for taking a look!
+keywords: >- 
+  HTML, CSS, JavaScript, Java, Python, C++, AGILE, Scrum, Leadership, Teamwork,
+  SolidWORKS, VS Code, Test Driven Design, Microcontrollers, Raspberry Pi,
+  Postgres, MySQL, XAMPP, Apache, OpenCV, SCiKit Learn, Keras, Tensorflow, PHP,
+  AJAX, JQuery, Ruby, R, BASH, Ocaml, Developer, Resume, Portfolio, Profile,
+  Engineer, Programmer, Software.
+skills: "Web Dev - Computer Vision - Database - AGILE"
+meta_author: Suzumoto Derek
 
 # Google webmaster tools
 google_verify:
@@ -13,50 +26,33 @@ google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: CEB7D7
+  primary-rgb: "178,150,202"
+  secondary: 81987F
+  secondary-dark: ACC9AD
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
+  copyright: Derek Suzumoto
+  location: Located In
+  social: Reach Me On
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/Shigi3333
+  - title: linkedin
+    url: https://www.linkedin.com/in/dsuzumoto/
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Denver, Colorado
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: ''
 
 # Build settings
 markdown: kramdown

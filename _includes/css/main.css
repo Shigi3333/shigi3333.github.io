@@ -293,7 +293,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary-dark }};
     background: #fff;
 }
 
@@ -346,7 +346,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
 }
 
 form .row:first-child .floating-label-form-group {
@@ -448,7 +448,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .close-modal:hover {
-    opacity: .3;
+    opacity: 0.3;
 }
 
 .portfolio-modal .close-modal .lr {
