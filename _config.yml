@@ -29,7 +29,7 @@ bing_verify:
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: CEB7D7
-  primary-rgb: "178,150,202"
+  primary-rgb: "255,255,255"
   secondary: 81987F
   secondary-dark: ACC9AD
 
@@ -37,7 +37,7 @@ color:
 footer:
   copyright: Derek Suzumoto
   location: Located In
-  social: Reach Me On
+  social: Find Me On
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -46,6 +46,8 @@ social:
     url: http://github.com/Shigi3333
   - title: linkedin
     url: https://www.linkedin.com/in/dsuzumoto/
+  - title: indeed
+    url: https://profile.indeed.com/p/dereks-hftm1tg
 
 # Postal address (add as many lines as necessary)
 address:
