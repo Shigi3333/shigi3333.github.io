@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 3
+date: 2025-10-03
+img: eyecue.jpg
+alt: image-alt
+project-date: 2023
+client: Mines Class Project
+category: OpenCV, Python, AGILE, Scrum
+description: As part of a project for an Intro to Computer Vision course, my team worked on a program that would use OpenCV to detect the pedestrian walk signal on the other side of a stoplight, and read out the information on it. We designed this program to help people with visual impairments cross more safely. This was a great learning experience, as although our software didn't turn out perfect in the end, we learned a lot about how real world conditions wildly impact something like computer vision, and gave us insight into ways that these issues are tackled, as well as the innate limitations to such software. It was also a great experience learning co-development strategies and practicing AGILE/Scrum structures.
+---
+0

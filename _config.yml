@@ -26,6 +26,9 @@ google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
+# Formspree Endpoint for contact submission form
+contact_endpoint: "//formspree.io/f/xrbykwwn"
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: CEB7D7
@@ -54,7 +57,7 @@ address:
   - line: Denver, Colorado
 
 # Credits content
-credits: ''
+credits: 'Freelancer Jekyll Template by Jerome Lachaud'
 
 # Build settings
 markdown: kramdown
