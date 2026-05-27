@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 date: 2026-05-26
-img: stairwell.jpg
+img: stairwell.png
 alt: image-alt
 project-date: 2026
 client: Independent Startup / Class Project

@@ -12,11 +12,11 @@ description: >-
   novel solutions. This website is here to give you a good idea of who I am,
   and show off some of my work! Thanks for taking a look!
 keywords: >- 
-  HTML, CSS, JavaScript, Java, Python, C++, AGILE, Scrum, Leadership, Teamwork,
-  SolidWORKS, VS Code, Test Driven Design, Microcontrollers, Raspberry Pi,
-  Postgres, MySQL, XAMPP, Apache, OpenCV, SCiKit Learn, Keras, Tensorflow, PHP,
-  AJAX, JQuery, Ruby, R, BASH, Ocaml, Developer, Resume, Portfolio, Profile,
-  Engineer, Programmer, Software.
+  Agile, Web Hosting, Software Documentation, Client Relations, Product
+  Deployment, JavaScript Libraries, React, React.js, Flask, New Business
+  Development, Jira, Project Management, Computer Vision, OpenCV, SCRUM, Image
+  Editing, Linux, Java, Python, Web Development, C++, Raspberry PI, Developer,
+  Resume, Portfolio, Profile, Engineer, Programmer, Software, Tech, Startup, Disruptor
 skills: "Web Dev - Computer Vision - Database - AGILE"
 meta_author: Suzumoto Derek
 
@@ -49,8 +49,10 @@ social:
     url: http://github.com/Shigi3333
   - title: linkedin
     url: https://www.linkedin.com/in/dsuzumoto/
+# Remove the last character of the link below, 'l' to fix indeed link when
+# profile is better
   - title: indeed
-    url: https://profile.indeed.com/p/dereks-hftm1tg
+    url: https://profile.indeed.com/p/dereks-hftm1tgl
 
 # Postal address (add as many lines as necessary)
 address:
