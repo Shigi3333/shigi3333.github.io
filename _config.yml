@@ -49,10 +49,8 @@ social:
     url: http://github.com/Shigi3333
   - title: linkedin
     url: https://www.linkedin.com/in/dsuzumoto/
-# Remove the last character of the link below, 'l' to fix indeed link when
-# profile is better
   - title: indeed
-    url: https://profile.indeed.com/p/dereks-hftm1tgl
+    url: https://profile.indeed.com/p/dereks-hftm1tg
 
 # Postal address (add as many lines as necessary)
 address:
