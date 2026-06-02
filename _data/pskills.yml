@@ -1,0 +1,39 @@
+- link: agile
+  alt: Agile
+  source: local
+- link: jira
+  alt: Scrum
+  source: dev
+- link: startup
+  alt: Startup Culture
+  source: local
+- link: coordination
+  alt: Project Planning
+  source: local
+- link: server
+  alt: Web Hosting
+  source: local
+- link: testing
+  alt: Software QA
+  source: local
+- link: review
+  alt: Code Reviews
+  source: local
+- link: document
+  alt: Tech Docs
+  source: local
+- link: handshake
+  alt: Client Relations
+  source: local
+- link: launch
+  alt: Product Launch
+  source: local
+- link: growth
+  alt: New Business Growth
+  source: local
+- link: engagement
+  alt: Client Engagement
+  source: local
+
+
+

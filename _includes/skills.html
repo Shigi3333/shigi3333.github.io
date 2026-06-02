@@ -1,0 +1,59 @@
+<!-- Skills Section -->
+<section id="skills">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Things I've Used</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 text-center">
+            <h3>Technologies</h3>
+            {% assign no_wordmark = "javascript,typescript,cplusplus,linux,bash" | split: "," %}
+            {% for skill in site.data.tskills %}
+                {% if no_wordmark contains skill.link %}
+                    <img    width="128px" 
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{ skill.link }}/{{ skill.link }}-original.svg" 
+                            alt="{{ skill.alt }}" 
+                            title="{{ skill.alt }}" />
+                {% else %}
+                    <img    width="128px" 
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{ skill.link }}/{{ skill.link }}-original-wordmark.svg" 
+                            alt="{{ skill.alt }}" 
+                            title="{{ skill.alt }}" />
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div class="col-lg-4 text-center">
+            <h3>Practices</h3>
+            <div class="practice-grid">
+                {% for skill in site.data.pskills %}
+                    <div class="practice-card">
+                        <div class="practice-card__image">
+                            {% if skill.source == "dev" %}
+                                <img width="96" 
+                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{ skill.link }}/{{ skill.link }}-original.svg" 
+                                     alt="{{ skill.alt }}" 
+                                     title="{{ skill.alt }}" />
+                            {% else %}
+                                <img width="96" 
+                                     src="img/skills/{{ skill.link }}.png"" 
+                                     alt="{{ skill.alt }}" 
+                                     title="{{ skill.alt }}" />
+                            {% endif %}
+                        </div>
+                        <h4>{{ skill.alt }}</h4>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-lg-4 text-center">
+            <h3>Soft Skills</h3>
+            <div class="skills-grid">
+
+            </div> 
+        </div>
+    </div>
+</section>

@@ -16,8 +16,10 @@ keywords: >-
   Deployment, JavaScript Libraries, React, React.js, Flask, New Business
   Development, Jira, Project Management, Computer Vision, OpenCV, SCRUM, Image
   Editing, Linux, Java, Python, Web Development, C++, Raspberry PI, Developer,
-  Resume, Portfolio, Profile, Engineer, Programmer, Software, Tech, Startup, Disruptor
-skills: "Web Dev - Computer Vision - Database - AGILE"
+  Resume, Portfolio, Profile, Engineer, Programmer, Software, Tech, Startup,
+  Disruptor, TypeScript, Bootstrap, Liquid, Jekyll, HTML5, CSS3, Postgres,
+  MySQL, SQL, Database, Unix, BASH, Git, Github, Azure, Arduino, Docker
+skills: "Web Dev - Computer Vision - Technical Communication - AGILE"
 meta_author: Suzumoto Derek
 
 # Google webmaster tools
@@ -57,7 +59,14 @@ address:
   - line: Denver, Colorado
 
 # Credits content
-credits: 'Freelancer Jekyll Template by Jerome Lachaud'
+credits: >- 
+  Freelancer Jekyll Template by Jerome Lachaud<br>Icons from: <br><a
+  href="https://devicon.dev/" target="_blank" style="color: inherit;">Devicon</a>
+  <br><a href="https://fontawesome.com/" target="_blank" style="color:
+  inherit;">FontAwesome</a>
+  <br><a href="https://www.coreui.io/icons/" target="_blank" style="color: inherit;">CoreUI Icons</a>
+  <br><a href="https://www.flaticon.com/" target="_blank" style="color: inherit;">Flaticon authors Flat Icons, juicy_fish, Awicon,
+  Canticons, Freepik, kliwir art, Parzival 1997, and zero_wing. </a>
 
 # Build settings
 markdown: kramdown

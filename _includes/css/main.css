@@ -279,6 +279,40 @@ section.success {
     }
   } */
 
+.practice-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.practice-card {
+    flex: 1 0 120px;
+    max-width: 140px;
+    text-align: center;
+}
+
+.practice-card__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 96px;
+    margin-bottom: 0.75rem;
+}
+
+.practice-card__image img,
+.practice-card__image i {
+    max-width: 100%;
+    height: auto;
+}
+
+.practice-card__label {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
