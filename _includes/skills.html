@@ -20,7 +20,7 @@
                             title="{{ skill.alt }}" />
                 {% else %}
                     <img    width="128px" 
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{ skill.link }}/{{ skill.link }}-original-wordmark.svg" 
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{ skill.link }}/{{ skill.link }}-original.svg" 
                             alt="{{ skill.alt }}" 
                             title="{{ skill.alt }}" />
                 {% endif %}
@@ -39,7 +39,7 @@
                                      title="{{ skill.alt }}" />
                             {% else %}
                                 <img width="96" 
-                                     src="img/skills/{{ skill.link }}.png"" 
+                                     src="img/skills/{{ skill.link }}.png" 
                                      alt="{{ skill.alt }}" 
                                      title="{{ skill.alt }}" />
                             {% endif %}
@@ -51,8 +51,30 @@
         </div>
         <div class="col-lg-4 text-center">
             <h3>Soft Skills</h3>
-            <div class="skills-grid">
-
+            <div class="soft-skills-list">
+                <div class="soft-skill-card">
+                    <img class="soft-skill-card__image" src="img/skills/brain.png" alt="Learning Agility" title="Learning Agility" />
+                    <h4>Learning Agility</h4>
+                    <p>All tools and frameworks used to develop Stairwell were
+                    learned in just a few weeks, while in the active
+                    development phase.</p>
+                </div>
+                <div class="soft-skill-card">
+                    <img class="soft-skill-card__image" src="img/skills/clock.png" alt="Time Management" title="Time Management" />
+                    <h4>Time Management</h4>
+                    <p>For both Stairwell and Lunar Outpost, client meetings, user/expert interviews, planning sessions,
+                    and SCRUM standups had to be balanced with long enough coding blocks to make
+                    effective progress.</p>
+                </div>
+                <div class="soft-skill-card">
+                    <img class="soft-skill-card__image" src="img/skills/chat.png" alt="Technical Communication" title="Technical Communication" />
+                    <h4>Technical Communication</h4>
+                    <p>For Lunar Outpost, this required taking client
+                    requirements/ideas, and converting them into real code. For
+                    Stairwell, we had to convert hard code, and the choices
+                    that guided it, back into explanations that users would
+                    care about.</p>
+                </div>
             </div> 
         </div>
     </div>

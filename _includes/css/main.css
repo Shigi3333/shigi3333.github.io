@@ -313,6 +313,46 @@ section.success {
     line-height: 1.4;
 }
 
+.soft-skills-list {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.soft-skills-column h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.soft-skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.soft-skill-card__image {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    margin-bottom: 0.25rem;
+}
+
+.soft-skill-card h4 {
+    margin: 0 0 0.25rem;
+    font-size: 1.8rem;
+}
+
+.soft-skill-card p {
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: #000;
+}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
